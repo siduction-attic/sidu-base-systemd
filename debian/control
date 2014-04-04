@@ -1,0 +1,19 @@
+Source: sidu-base-systemd
+Section: web 
+Priority: optional
+Maintainer: J. Hamatoma <hama@siduction.net>
+Uploaders: Alf Gaida <agaida@siduction.org>
+Build-Depends: 
+ debhelper (>= 9),
+ dh-systemd,
+Standards-Version: 3.9.5
+Homepage: http://siduction.org
+Vcs-git: git://git3@git.siduction.org:code/sidu-base-systemd
+Vcs-Browser: http://git.siduction.org/?p=code/sidu-base-systemd.git
+
+Package: sidu-base-systemd
+Architecture: all
+Depends:
+ ${misc:Depends},
+ pywwetha,
+Description: integration of sidu-base into systemd

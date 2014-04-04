@@ -6,6 +6,7 @@ set -e
 
 case "$1" in
     configure)
+    sidu-base-control restart
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

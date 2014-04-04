@@ -1,3 +1,10 @@
+sidu-base-systemd (2014.04.02) unstable; urgency=medium
+
+  * postinst: calling sidu-base-control restart
+  * prerm: calling sidu-base-control stop
+
+ -- J. Hamatoma <hama@siduction.net>  Fri, 04 Apr 2014 23:25:04 +0200
+
 sidu-base-systemd (2014.04.01) unstable; urgency=medium
 
   * initial state
